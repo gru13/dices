@@ -9,8 +9,7 @@ o = [PhotoImage(file="./pic/one.png"), PhotoImage(file="./pic/two.png"), PhotoIm
 
 def start():
     global la
-    y = randint(0, 5)
-    la.config(image=o[y])
+    la.config(image=o[randint(0, 5)])
 
 
 la = Button(win, image=PhotoImage(file="./pic/START.png"), command=start)
