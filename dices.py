@@ -4,13 +4,13 @@ import random as r
 from time import *
 
 tk = k.Tk()
-pht = k.PhotoImage(file="START.png")
-o1 = k.PhotoImage(file="one.png")
-o2 = k.PhotoImage(file="two.png")
-o3 = k.PhotoImage(file="three.png")
-o4 = k.PhotoImage(file="four.png")
-o5 = k.PhotoImage(file="five.png")
-o6 = k.PhotoImage(file="six.png")
+pht = k.PhotoImage(file="./pic/START.png")
+o1 = k.PhotoImage(file="./pic/one.png")
+o2 = k.PhotoImage(file="./pic/two.png")
+o3 = k.PhotoImage(file="./pic/three.png")
+o4 = k.PhotoImage(file="./pic/four.png")
+o5 = k.PhotoImage(file="./pic/five.png")
+o6 = k.PhotoImage(file="./pic/six.png")
 
 
 
